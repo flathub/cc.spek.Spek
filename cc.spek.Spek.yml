@@ -56,6 +56,4 @@ modules:
           tag-pattern: ^v([\d.]+)$
         commit: bf4ea059f6f87cf0f2c379f890115173fa04ce57
       - type: file
-        path: NEWS
-      - type: file
         path: cc.spek.Spek.metainfo.xml
