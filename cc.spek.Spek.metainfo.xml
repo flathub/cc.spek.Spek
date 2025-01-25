@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>cc.spek.Spek</id>
   <name>Spek</name>
-  <summary>Acoustic Spectrum Analyser</summary>
+  <summary>View spectrograms of your audio files</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-only</project_license>
   <description>
@@ -11,15 +11,19 @@
   <developer id="cc.spek.www">
     <name>Alexander Kojevnikov</name>
   </developer>
-  <launchable type="desktop-id">cc.spek.Spek.desktop</launchable>
+  <launchable type="desktop-id">spek.desktop</launchable>
   <url type="homepage">https://www.spek.cc/</url>
   <url type="bugtracker">https://github.com/alexkay/spek/issues</url>
   <url type="translate">https://explore.transifex.com/spek/spek/</url>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://substack-post-media.s3.amazonaws.com/public/images/6d7ce866-0fa6-4fe3-b4c8-e33da40036d8_656x526.png</image>
+      <image type="source">https://raw.githubusercontent.com/alexkay/spek/b3759bbb7d1108b3193394b941eeee982f15b739/web/flac.png</image>
     </screenshot>
   </screenshots>
+  <categories>
+    <category>Audio</category>
+    <category>AudioVideo</category>
+  </categories>
   <releases>
     <release type="stable" version="0.8.5" date="2023-01-09T00:00:00Z">
       <description>
