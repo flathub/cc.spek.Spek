@@ -203,4 +203,9 @@
     </release>
   </releases>
   <content_rating type="oars-1.1"/>
+  <keywords>
+    <keyword>audio spectogram analyzer</keyword>
+    <keyword>spectrogram viewer</keyword>
+    <keyword>audio analysis tool</keyword>
+  </keywords>
 </component>
