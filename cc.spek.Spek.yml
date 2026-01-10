@@ -59,3 +59,6 @@ modules:
         path: cc.spek.Spek.metainfo.xml
       - type: patch
         path: update-gettext-version.patch
+      - type: shell
+        commands:
+          - autoreconf -vfi -I /usr/share/gettext/m4
