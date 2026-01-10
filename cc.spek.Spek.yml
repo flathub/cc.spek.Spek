@@ -1,6 +1,6 @@
 app-id: cc.spek.Spek
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: spek
 rename-icon: spek
@@ -57,3 +57,8 @@ modules:
         commit: bf4ea059f6f87cf0f2c379f890115173fa04ce57
       - type: file
         path: cc.spek.Spek.metainfo.xml
+      - type: patch
+        path: update-gettext-version.patch
+      - type: shell
+        commands:
+          - autoreconf -vfi -I /usr/share/gettext/m4

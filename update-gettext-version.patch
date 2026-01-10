@@ -1,0 +1,13 @@
+diff --git i/configure.ac w/configure.ac
+index 5a80c6b..2468603 100644
+--- i/configure.ac
++++ w/configure.ac
+@@ -68,7 +68,7 @@ fi
+ GETTEXT_PACKAGE=spek
+ AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], ["$GETTEXT_PACKAGE"], [Gettext Package])
+ AC_SUBST(GETTEXT_PACKAGE)
+-AM_GNU_GETTEXT_VERSION([0.21])
++AM_GNU_GETTEXT_VERSION([0.26])
+ AM_GNU_GETTEXT([external])
+ 
+ AC_CONFIG_FILES([
